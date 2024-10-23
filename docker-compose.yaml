@@ -8,5 +8,5 @@ services:
     networks:
       - Net-CT
 
-Networks:
+networks:
   - Net-CT  
