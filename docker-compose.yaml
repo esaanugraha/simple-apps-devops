@@ -9,4 +9,5 @@ services:
       - Net-CT
 
 networks:
-  - Net-CT:
+  Net-CT:
+    external: true
