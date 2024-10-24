@@ -44,8 +44,8 @@ pipeline {
             steps {
                 sh '''
                 cd apps
-                docker build -t esanugraha/simple-apps-project .
-                docker push esanugraha/simple-apps-project
+                docker build -t esanugraha/pipeline-simpleapps-project-apps .
+                docker push esanugraha/pipeline-simpleapps-project-apps
                 '''
             }
         }
